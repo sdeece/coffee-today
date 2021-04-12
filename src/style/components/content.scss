@@ -1,0 +1,28 @@
+// menu block
+.menu {
+  padding-top: 54px;
+
+  .title {
+    font-family: $additional-font-family;
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tabs {
+    width: 30%;
+    margin: 0 auto;
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: 30px;
+    }
+
+    &__item {
+      cursor: pointer;
+    }
+  }
+}
